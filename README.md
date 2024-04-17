@@ -11,7 +11,7 @@ npm install
 npm start
 
 docker build -t payslip-service .
-docker run -p 8080:8080 --name file-gen-service payslip-service
+docker run -p 8080:8080 --name payslip-service payslip-service
 
 # if to local registry
 docker build -t localhost:5000/payslip-service:latest .
