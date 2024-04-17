@@ -2,6 +2,10 @@
 /node_modules/
 /package-lock.json
 /yarn.lock
+node_modules/
+npm-debug.log
+.DS_Store
+.env
 
 # Debug log from npm
 npm-debug.log*
